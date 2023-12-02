@@ -8,13 +8,13 @@ function cambiarFuenteVideo() {
     if (screenWidth <= 768) {
         videoElement.attr(
             "src",
-            "src/video/ss22-joinlife-earth-hour.video-1080x1920.mp4"
+            "src/video/videoMobile.mp4"
         );
     } else {
         // Si la pantalla es mayor a 768px, muestra la fuente para escritorios
         videoElement.attr(
             "src",
-            "src/video/ss22-joinlife-earth-hour.video-1920x1080.mp4"
+            "src/video/videoDesktop.mp4"
         );
     }
 }
@@ -22,8 +22,6 @@ function cambiarFuenteVideo() {
 function scrollToVideoTime(targetTime,animacion) {
     // Calculamos la posición de desplazamiento correspondiente al tiempo objetivo
     var targetScrollPosition = (targetTime * 1000) / 2;
-
-    console.log({targetScrollPosition});
     
     // Hacemos scroll hasta la posición calculada
     $("html, body").animate({ scrollTop: targetScrollPosition }, animacion); // Ajusta la duración según sea necesario
