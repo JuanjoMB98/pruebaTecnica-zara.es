@@ -14,7 +14,7 @@
 
 
 # 1. PREANÁLISIS
-Despues de mirar los assets y el material proporcionado, lo primero que se me ha ocurrido es hacer un "Hero Section" donde el fondo sea el video y el scroll sea el engargado de manejar los segundos de reproducción, de forma que si hacemos scroll hacia bajo el video avance y hacemos scroll hacia arriba el video retroceda.
+Despues de mirar los assets y el material proporcionado, lo primero que se me ha ocurrido es hacer un "Hero Section" donde el fondo sea el video y el scroll sea el encargado de manejar los segundos de reproducción, de forma que si hacemos scroll hacia bajo el video avance y hacemos scroll hacia arriba el video retroceda.
 
 Luego para el tema de los textos tengo la idea de hacer unos breakpoints donde en determinados momentos del video sea donde cambien las capas.
 
