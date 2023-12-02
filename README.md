@@ -52,7 +52,9 @@ No sabía muy bien si escribir los textos o usar los svg que vosotros me habeis 
 **_Observaciones_**
 He estado investigando formas de optimizarlo pero finalmente no he conseguido nada. He estado viendo algo sobre crear un canva en lugar de reproducir el video directamente, pero tenia el mismo lag.
 
-Luego cuando le digo que vaya a determinado momento del video, aunque el currentTime del video se actualiza a la perfección, visualmente el video se astasca hasta llegar al objetivo. Y no consigo que vaya de forma fluido
+Luego cuando le digo que vaya a determinado momento del video, aunque el currentTime del video se actualiza a la perfección, visualmente el video se astasca hasta llegar al objetivo. Y no consigo que vaya de forma fluido. 
+
+PD: Si muestro los controles del video la barra también avanza de forma fluida.
 <br>
 
 ### Breakpoints para mostrar capas correspondientes
