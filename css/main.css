@@ -167,21 +167,12 @@ a {
     height: 400rem;
     width: 1000rem;
 }
-@keyframes trucoDesesperado {
-    from {
-        opacity: 0;
-    }
-    to {
-        opacity: 1;
-    }
-}
 
 .m-heroStep__item {
-    opacity: 0;
+    visibility: hidden;
     position: absolute;
     top: 50%;
     transform: translate(0, -50%);
-    animation: trucoDesesperado 3s forwards steps(2);
 }
 .m-heroStep {
     display: flex;
@@ -260,6 +251,7 @@ a {
     height: var(--size);
     bottom: 32rem;
     left: 50%;
+    transform: translate(0 , -50%);
     animation: blinkAnimation 3s infinite;
     transition: all ease-in-out 1s;
     cursor: pointer;

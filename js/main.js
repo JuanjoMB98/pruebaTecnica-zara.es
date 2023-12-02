@@ -62,6 +62,17 @@ $(document).ready(function () {
 
             scrollPosition = newScrollPosition; // Actualiza la posición de desplazamiento
 
+            console.log({
+                scrollPosition
+            })
+
+            if( scrollPosition > 800){
+                $(".m-heroStep__item").css("visibility", "visible");
+            } else {
+                $(".m-heroStep__item").css("visibility", "hidden");
+            }
+
+
             handleStep(".js-step-1", 1450, 3450, 11, 1000);
             handleStep(".js-step-2", 4450, 6450, 17, 1000);
             handleStep(".js-step-3", 7450, Infinity, 3, 7000);
