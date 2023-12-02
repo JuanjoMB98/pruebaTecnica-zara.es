@@ -25,7 +25,7 @@ Y para la versión movil lo mismo, pero cambiando el source del video de fondo (
 # 2. MEMORIA
 ## Despliegue
 He subido la web utilizando pages de git y este es el enlace para ver la web (así la podía ver en un móvil real)
-https://juanjomb98.github.io/pruebaTecnica-zara.com/
+https://juanjomb98.github.io/pruebaTecnica-zara.es/
 
 ## Tareas
 - [x] Preparar las capas
