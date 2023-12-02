@@ -7,10 +7,7 @@ function cambiarFuenteVideo() {
     // Si la pantalla es de 768px o menos, muestra la fuente para dispositivos móviles
     if (screenWidth <= 768) {
         videoElement.attr("src", "src/video/videoMobile.mp4");
-        // Obligatoria para el mobil
-        $("body").on("click", function () {
-            videoElement.play();
-        });
+
     } else {
         // Si la pantalla es mayor a 768px, muestra la fuente para escritorios
         videoElement.attr("src", "src/video/videoDesktop.mp4");
