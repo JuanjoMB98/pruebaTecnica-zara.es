@@ -10,8 +10,8 @@ function cambiarFuenteVideo() {
         videoElement.attr("src", "src/video/videoMobile.mp4");
         $(videoElementPlay).on("click", function (event) {
             {
-                videoElementPlay.play();
                 event.preventDefault();
+                videoElementPlay.play();
             }
         });
     } else {
