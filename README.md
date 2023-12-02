@@ -25,42 +25,50 @@ Y para la versión movil lo mismo, pero cambiando el source del video de fondo (
 # 2. MEMORIA
 ## Despliegue
 He subido la web utilizando pages de git y este es el enlace para ver la web (así la podía ver en un móvil real)
-https://juanjomb98.github.io/kimiagroup.com/
+https://juanjomb98.github.io/pruebaTecnica-zara.com/
 
 ## Tareas
-- [ ] Maquetar base y elementos estaticos
-- [ ] Preparar las capas
-- [ ] JS para manejar el video mediante el scroll
-- [ ] Breakpoints para mostrar capas correspondientes
-- [ ] Revisar responsive
-- [ ] Control de volver al principio
+- [x] Preparar las capas
+- [x] JS para manejar el video mediante el scroll
+- [x] Breakpoints para mostrar capas correspondientes
+- [x] Cambiar fuente del Video segun despositivo
+- [x] Comprobar responsive
+- [x] Control de volver al principio
 
 ## Desarrollo
-### Maquetar base y elementos estaticos
->He tardado <X horas> en maquetar toda la web con el contenido y comprobar el responsive en cualquier scope. Es completamente visible en cualquier situación
-
-**_Observaciones_**
-
-<br>
 
 ### Preparar las capas
-> He tardado <X horas> en preparar las capas.
+> He tardado <40 mins> en crear toda la estructura HTML.
 
 **_Observaciones_**
+Igual que el header no sabia si hacerlo o no y he hecho algo rápido para que pareciese más real
 
+No sabía muy bien si escribir los textos o usar los svg que vosotros me habeis facilitado, como me los habeís dado los he usado, pero en el responsive el texto queda muy pequeño ya que el svg no puede wrapear como si lo haría un texto normal y podrias modificar el tamaño para que se leyese mejor
 <br>
 
 ### JS para manejar el video mediante el scroll
->He tardado <X horas> en que fuese 100% funcional
+>He tardado <2 horas> en hacerlo e investigar mejoras 
 
 **_Observaciones_**
+He estado investigando formas de optimizarlo pero finalmente no he conseguido nada. He estado viendo algo sobre crear un canva en lugar de reproducir el video directamente, pero tenia el mismo lag.
 
+Luego cuando le digo que vaya a determinado momento del video, aunque el currentTime del video se actualiza a la perfección, visualmente el video se astasca hasta llegar al objetivo. Y no consigo que vaya de forma fluido
 <br>
 
 ### Breakpoints para mostrar capas correspondientes
->He tardado <x mins> en animar el formulario y darle el toque distintivo
+>He tardado <3 horas> en animar las entradas y salidas de los textos y decirles cuando entrar
 
 **_Observaciones_**
+La verdad que me he vuelto un poco loco con esto, porque me hubiese gustado hecho haciendo scroll en lugar de ir ocultando y mostrando las capas pero no he conseguido entender como está hecho
+
+<br>
+
+### Cambiar fuente del Video segun despositivo
+>He tardado <24 mins> en cambiar la fuente. Lo hace cuando el dispositivo es menor de 768px
+
+**_Observaciones_**
+
+He estado investigando a ver si se podía hacer solo por CSS pero todavia no es soportado al 100% y lo he tenido que hacer en JS
 
 <br>
 <br>
