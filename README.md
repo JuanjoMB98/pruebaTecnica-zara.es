@@ -73,6 +73,15 @@ La verdad que me he vuelto un poco loco con esto, porque me hubiese gustado hech
 He estado investigando a ver si se podía hacer solo por CSS pero todavia no es soportado al 100% y lo he tenido que hacer en JS
 
 <br>
+
+### Comprobar responsive
+>He tardado <60 mins> en hacerlo funcionar un movil real
+
+**_Observaciones_**
+
+Los moviles bloquean los videos de forma automatica y hay que hacer algun ajuste
+
+<br>
 <br>
 
 > [!Important]

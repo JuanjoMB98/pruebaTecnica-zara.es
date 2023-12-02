@@ -49,8 +49,6 @@ $(document).ready(function () {
         // 4. Manejamos el Scroll
         var scrollPosition = $(window).scrollTop();
 
-        console.log({ scrollPosition });
-
         $(document).on("scroll", function () {
             var newScrollPosition = $(this).scrollTop();
             var totalScrollDistance = alturaHeroSection - $(window).height();
@@ -60,8 +58,6 @@ $(document).ready(function () {
             videoElement.currentTime = videoProgress * videoElement.duration;
 
             scrollPosition = newScrollPosition; // Actualiza la posición de desplazamiento
-
-            console.log({ scrollPosition });
 
             handleStep(".js-step-1", 1450, 3450, 11, 1000);
             handleStep(".js-step-2", 4450, 6450, 17, 1000);
