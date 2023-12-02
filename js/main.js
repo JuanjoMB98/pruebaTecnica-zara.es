@@ -12,6 +12,7 @@ function cambiarFuenteVideo() {
             {
                 event.preventDefault();
                 videoElementPlay.play();
+                videoElementPlay.pause();
             }
         });
     } else {
