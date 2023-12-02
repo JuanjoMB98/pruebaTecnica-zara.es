@@ -8,7 +8,7 @@ function cambiarFuenteVideo() {
     // Si la pantalla es de 768px o menos, muestra la fuente para dispositivos móviles
     if (screenWidth <= 768) {
         videoElement.attr("src", "src/video/videoMobile.mp4");
-        $(videoElementPlay).on("click", function (event) {
+        $("body").on("click", function (event) {
             {
                 event.preventDefault();
                 videoElementPlay.play();
