@@ -32,7 +32,7 @@ $(document).ready(function () {
 
     //Comprobamos fuente del video
     cambiarFuenteVideo();
-    $(window).resize(cambiarFuenteVideo);
+    $(window).on('resize orientationchange', cambiarFuenteVideo);
 
     //CONTROLAMOS EL VIDEO CUANDO ESTE CARGADO
     var videoElement = $("#heroSectionVideo")[0];
@@ -50,6 +50,8 @@ $(document).ready(function () {
         // 4. Manejamos el Scroll
         var scrollPosition = $(window).scrollTop();
 
+        console.log({ scrollPosition});
+
         $(window).scroll(function () {
 
             var newScrollPosition = $(this).scrollTop();
@@ -61,6 +63,9 @@ $(document).ready(function () {
             
 
             scrollPosition = newScrollPosition; // Actualiza la posición de desplazamiento
+
+        console.log({ scrollPosition});
+
 
             handleStep(".js-step-1", 1450, 3450, 11, 1000);
             handleStep(".js-step-2", 4450, 6450, 17, 1000);
