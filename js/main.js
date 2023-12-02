@@ -3,11 +3,14 @@ function cambiarFuenteVideo() {
     // Obtiene el ancho de la pantalla
     var screenWidth = $(window).width();
     var videoElement = $(".js-videoSource");
+    var videoElementPlay = $("#heroSectionVideo")[0]
 
     // Si la pantalla es de 768px o menos, muestra la fuente para dispositivos móviles
     if (screenWidth <= 768) {
         videoElement.attr("src", "src/video/videoMobile.mp4");
-
+        $("body").on("click", function () {
+            videoElementPlay.play();
+        });
     } else {
         // Si la pantalla es mayor a 768px, muestra la fuente para escritorios
         videoElement.attr("src", "src/video/videoDesktop.mp4");
