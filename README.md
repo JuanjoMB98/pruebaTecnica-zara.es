@@ -44,6 +44,7 @@ https://juanjomb98.github.io/pruebaTecnica-zara.es/
 Igual que el header no sabia si hacerlo o no y he hecho algo rápido para que pareciese más real
 
 No sabía muy bien si escribir los textos o usar los svg que vosotros me habeis facilitado, como me los habeís dado los he usado, pero en el responsive el texto queda muy pequeño ya que el svg no puede wrapear como si lo haría un texto normal y podrias modificar el tamaño para que se leyese mejor
+
 <br>
 
 ### JS para manejar el video mediante el scroll
@@ -55,6 +56,7 @@ He estado investigando formas de optimizarlo pero finalmente no he conseguido na
 Luego cuando le digo que vaya a determinado momento del video, aunque el currentTime del video se actualiza a la perfección, visualmente el video se astasca hasta llegar al objetivo. Y no consigo que vaya de forma fluido. 
 
 PD: Si muestro los controles del video la barra también avanza de forma fluida.
+
 <br>
 
 ### Breakpoints para mostrar capas correspondientes
